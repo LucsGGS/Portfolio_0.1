@@ -5,40 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Portfolio.css">
     <title>Portfólio Estático</title>
+
+    <div id="menu">
+
+        <h1>D3v#</h1>
+
+        <div id="conteudo_menu">
+
+            <button class="botoes_menu" onclick="home_Sessao()">Home</button>
+            <button class="botoes_menu" onclick="Mudar_Info()">Sobre</button>
+            <button class="botoes_menu" onclick="Mudar_Trabalhos()">Trabalhos</button> 
+            <button class="botoes_menu" onclick="Mudar_Curriculo()">Portfólio</button>
+
+        </div>
+
+    </div>
+
 </head>
 <body>
-    
+
     <div id="sessao_principal">
 
-        <h1>Lucas Gratão</h1>
-        <p id="subetitulo_pricipal">Engenheiro de Software</p>
-        
+        <div id="Mudar_Xp">
+
+            <h1 style="margin-bottom: 20px;">Bem-vindo!</h1>
+
+            <p style="margin-bottom: 50px;">Eu sou um estudante de programação, com experencia de estudo de 1 anos. Atualmente estou tentando engressar na área de desenvolvimento</br>
+                Eu tenho Experiências com hmtl, css, js pricipalmente com desolvimento se Web sites.
+            </p>
+            
+
+        </div>
+
+        <div id="Sobre_mim" style="display: none;">
+
+            <h1 style="margin-bottom: 20px;">Olá, eu meu nome é Lucas!</h1>
+
+            <p style="margin-bottom: 10px;">Idade: 18 anos</p>
+            <p style="margin-bottom: 10px;">Email: aboba</p>
+            <p style="margin-bottom: 10px;">Telefone: 999999999999</p>
+            <p style="margin-bottom: 10px;">Eu cresci e vivi minha vida inteira em bauru no interior se São Paulo.</br>
+                Atualmente terminei a escola e tenho o objetivo de virar um proficional na área do desenvolvimento e,</br>
+                estou fazendo este site protfóio como uma forma de testar meus conhecimento
+            </p>
+
+        </div>
+
+        <div id="Trabalhos" style="display: none;">
+            
+            <h1>Onde eu já trabalhei:</h1>
+
+            <p>Paschoalotto</p>
+            <p>Tempo: 8 meses</p>
+            <p>Trabelhei como recuperador de crtédito por apóximadamente 8 meses, fazia atendimento ao clientes</p>
+
+            <p>Hcosta</p>
+            <p>Tempo: 10 meses</p>
+            <p>Trabalho atualmente hcosta onde segui na área de cobrança,</br>
+                com o diferencial sendo a experiancias que obtive por ferramentas de suporte dígitais</p>
+            
+        </div>
+
+        <img src="icons8-linkedin-50.png" alt="Foto">
+
+        <div id="Portfolio" style="display: none;">
+
+            <h1>Baixe meu currículo aqui:</h1>            
+
+            <a href="#">Currículo:</a>
+
+        </div>
+
     </div>
 
-    <div id="sessao_secundaria">
 
-       <p class="info_Mim" style="margin-top: 200px; margin-bottom: 50px;">Sobre Mim:</p>
-
-       <p class="info_Mim">Olá! Sou Lucas, tenho 18 anos e sou um estudante de programação apaixonado por</br>
-        desenvolvimento web. Como desenvolvedor front-end júnior, domino HTML, CSS e JavaScript, focando</br>
-        em criar interfaces limpas, responsivas e funcionais.</br>
-        Estou sempre aprendendo e evoluindo. Este portfólio mostra alguns dos meus projetos pessoais e</br>
-        estudos.Se tiver alguma oportunidade ou projeto, entre em contato!
-        </p>
-
-    </div>
-
-    <footer>
-
-        <p style="margin-bottom: 30px;">Minhas Redes</p>
-
-        <a href="https://www.linkedin.com/in/lucas-gabriel-gratão-silveira-b734852b6/">linkedin</a>
-        <a href="https://github.com/LucsGGS">Github</a>
-
-        <p>E-mail para contato: contalucassegunda@gmail.com</p>
-
-    </footer>
-    
-    <script src="Portfolio.js"></script>
+    <script src="Portfólio.js"></script>
 </body>
 </html>

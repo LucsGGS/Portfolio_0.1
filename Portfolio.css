@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-.hidden {
-    display: none;
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -14,75 +10,86 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #233364;
+
 }
 
-
-.botoes_principais {
-    position: absolute;
-    height: 200px;
-    width: 100px;
-    border: none;
-    background: none;
-    color: black;
-    z-index: 1;
-}
-
-.botoes_principais:hover {
-    color: gray;
-}
-
-#sessao_principal {
-    height: 700px;
-    width: 100vw;
-    background-image: url(Banckground_Imagem.jpg);
-    margin: 50px;
-    text-align: center;
-}
-
-h1 {
-    margin-top: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-}
-
-#subetitulo_pricipal {
+#menu {
+    height: 100px;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: #233364;
 }
 
-#sessao_secundaria {
-    height: 690px;
-    width: 95vw;
-    position: absolute;
-    top: 100%;
+#conteudo_menu {
+    margin-left: 1000px;
+}
+
+.botoes_menu {
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: white;
+
+
+}
+
+.botoes_menu:hover {
+    background-color: #1d2c5a;
+}
+
+
+
+#sessao_principal {
+    height: 500px;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Mudar_Xp {
+    height: 300px;
+    width: 600px;;
+    margin-right: 200px;
     text-align: center;
 }
 
-.info_Mim {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+#Botao_Xp {
+    margin-top: 100px;
 }
 
-footer {
-    height: 150px;
-    width: 90vw;
-    position: absolute;
-    top: 160%;
-    margin-top: 30px;
-    text-align: center;
+.links_buttons {
+    height: 50px;
+    width: 50px;
+    background-color: #233364;
+    background-image: url(icons8-linkedin-50.png);
+    background-repeat: no-repeat;
+    border-style: none;
+
 }
 
-a {
-    color: black;
-    font-size: 20px;
+.links_buttons_link {
+    column-rule: white;
     text-decoration: none;
-    margin: 30px;
+}
+img {
+    height: 500px;
+    width: 500px;
 }
 
-a:hover {
-    text-decoration: underline;
+
+h1 {
+    color: rgb(248, 105, 90);
+}
+
+p {
+    color: white;
 }
